@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other
+ ; padding-left: 250px*/
+nav {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+blue links {
+
+}
+
+img.posters {
+  padding-right: 300px;
+  size: auto;
+  border-image: initial;
+}
+
+#caption {
+  font-family: "Crimson Text";
+  padding: 15px;
+  font-size: 25px;
+  color: #0047FF;
+  text-decoration: underline;
+}
+
+#caption2 {
+  font-family: "Crimson Text";
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+#product {
+  height: 70px;
+  width: 30px;
+  padding: 20px;
+}
